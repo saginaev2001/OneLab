@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-project';
+  todoList = [
+    {
+      completed: false,
+      name: 'Купить молоко'
+    },
+    {
+      completed: true,
+      name: 'Купить хлеб'
+    },
+    {
+      completed: false,
+      name: 'Купить масло'
+    },
+  ];
+  car='Lexus';
 }

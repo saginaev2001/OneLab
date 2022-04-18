@@ -1,3 +1,32 @@
+<!--
 <h2 class="sol">MY PROJECT</h2>
-<app-sidenav></app-sidenav>
 <app-header></app-header>
+
+<div>{{car}}</div>
+
+<div>
+  <label>First car</label>
+  <input type="text" [(ngModel)]="car" /><br><br>
+  <input type="text" [(ngModel)]="car" />
+</div>
+
+<div>
+  <label>First car</label>
+  <input type="text" [attr.value]="car">
+</div>
+
+<div [style.color]="'red'">
+  <table border="1">
+  <tr><td [attr.car]="car">Audi</td></tr>
+  <tr><td>Mers</td><td>Jigul</td></tr>
+  <tr><td>Mers</td><td>Jigul</td></tr>
+  </table>
+</div>
+<h1>Homework 2</h1>
+<app-sidenav></app-sidenav>
+-->
+<h1>Homework 4</h1>
+<h3>{{car | model: 'class'}}</h3>
+<div appZoom > Hi, This is my Car!</div>
+
+
